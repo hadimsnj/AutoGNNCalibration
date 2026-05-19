@@ -1,0 +1,510 @@
+========================================
+Dataset: Cora
+========================================
+
+[Float Training]
+Float model accuracy: 0.8050
+
+Quantization with 8-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.8080
+
+[Static QAT]
+MAX QAT Accuracy: 0.8130
+MSE QAT Accuracy: 0.8100
+KLD QAT Accuracy: 0.8100
+PERCENTILE QAT Accuracy: 0.8120
+
+Quantization with 4-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.6130
+
+[Static QAT]
+MAX QAT Accuracy: 0.6930
+MSE QAT Accuracy: 0.7950
+KLD QAT Accuracy: 0.7700
+PERCENTILE QAT Accuracy: 0.7750
+
+Quantization with 2-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.1350
+
+[Static QAT]
+MAX QAT Accuracy: 0.2740
+MSE QAT Accuracy: 0.3740
+KLD QAT Accuracy: 0.1520
+PERCENTILE QAT Accuracy: 0.5530
+
+Quantization with 1-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.1170
+
+[Static QAT]
+MAX QAT Accuracy: 0.1210
+MSE QAT Accuracy: 0.1170
+KLD QAT Accuracy: 0.1170
+PERCENTILE QAT Accuracy: 0.3770
+
+========================================
+Dataset: Citeseer
+========================================
+[Float Training]
+Float model accuracy: 0.6740
+
+Quantization with 8-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.6820
+
+[Static QAT]
+MAX QAT Accuracy: 0.6850
+MSE QAT Accuracy: 0.7010
+KLD QAT Accuracy: 0.6770
+PERCENTILE QAT Accuracy: 0.6600
+
+Quantization with 4-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.5550
+
+[Static QAT]
+MAX QAT Accuracy: 0.5450
+MSE QAT Accuracy: 0.6750
+KLD QAT Accuracy: 0.6560
+PERCENTILE QAT Accuracy: 0.5270
+
+Quantization with 2-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.0910
+
+[Static QAT]
+MAX QAT Accuracy: 0.1250
+MSE QAT Accuracy: 0.2650
+KLD QAT Accuracy: 0.3000
+PERCENTILE QAT Accuracy: 0.1660
+
+Quantization with 1-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.0870
+
+[Static QAT]
+MAX QAT Accuracy: 0.0870
+MSE QAT Accuracy: 0.0870
+KLD QAT Accuracy: 0.0870
+PERCENTILE QAT Accuracy: 0.1780
+
+========================================
+Dataset: Pubmed
+========================================
+[Float Training]
+Float model accuracy: 0.7830
+
+Quantization with 8-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.7790
+
+[Static QAT]
+MAX QAT Accuracy: 0.7780
+MSE QAT Accuracy: 0.7800
+KLD QAT Accuracy: 0.7780
+PERCENTILE QAT Accuracy: 0.2080
+
+Quantization with 4-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.6780
+
+[Static QAT]
+MAX QAT Accuracy: 0.7030
+MSE QAT Accuracy: 0.7710
+KLD QAT Accuracy: 0.7330
+PERCENTILE QAT Accuracy: 0.2080
+
+Quantization with 2-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.2080
+
+[Static QAT]
+MAX QAT Accuracy: 0.2080
+MSE QAT Accuracy: 0.5090
+KLD QAT Accuracy: 0.2080
+PERCENTILE QAT Accuracy: 0.2080
+
+Quantization with 1-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.2080
+
+[Static QAT]
+MAX QAT Accuracy: 0.2080
+MSE QAT Accuracy: 0.2080
+KLD QAT Accuracy: 0.2080
+PERCENTILE QAT Accuracy: 0.2080
+
+========================================
+Dataset: Computers
+========================================
+[Float Training]
+Total float training time: 1.3152s
+Float model accuracy: 0.8658
+
+Quantization with 8-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.9058
+
+[Static QAT]
+MAX QAT Accuracy: 0.8975
+MSE QAT Accuracy: 0.9076
+KLD QAT Accuracy: 0.9007
+PERCENTILE QAT Accuracy: 0.8211
+
+Quantization with 4-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.3393
+
+[Static QAT]
+MAX QAT Accuracy: 0.6004
+MSE QAT Accuracy: 0.7367
+KLD QAT Accuracy: 0.8447
+PERCENTILE QAT Accuracy: 0.6807
+
+Quantization with 2-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.0320
+
+[Static QAT]
+MAX QAT Accuracy: 0.0324
+MSE QAT Accuracy: 0.4916
+KLD QAT Accuracy: 0.2233
+PERCENTILE QAT Accuracy: 0.1876
+
+Quantization with 1-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.0309
+
+[Static QAT]
+MAX QAT Accuracy: 0.0309
+MSE QAT Accuracy: 0.0309
+KLD QAT Accuracy: 0.0309
+PERCENTILE QAT Accuracy: 0.1815
+
+========================================
+Dataset: Photo
+========================================
+
+[Float Training]
+Float model accuracy: 0.9359
+
+Quantization with 8-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.9588
+
+[Static QAT]
+MAX QAT Accuracy: 0.9608
+MSE QAT Accuracy: 0.9595
+KLD QAT Accuracy: 0.9484
+PERCENTILE QAT Accuracy: 0.9150
+
+Quantization with 4-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.4641
+
+[Static QAT]
+MAX QAT Accuracy: 0.6634
+MSE QAT Accuracy: 0.8209
+KLD QAT Accuracy: 0.9046
+PERCENTILE QAT Accuracy: 0.8314
+
+Quantization with 2-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.0614
+
+[Static QAT]
+MAX QAT Accuracy: 0.0778
+MSE QAT Accuracy: 0.4275
+KLD QAT Accuracy: 0.1719
+PERCENTILE QAT Accuracy: 0.2961
+
+Quantization with 1-bit
+------------------------------
+
+[Dynamic QAT - EMA]
+EMA QAT Accuracy: 0.0588
+
+[Static QAT]
+MAX QAT Accuracy: 0.0588
+MSE QAT Accuracy: 0.0588
+KLD QAT Accuracy: 0.0588
+PERCENTILE QAT Accuracy: 0.1477
+
+
+================================================================================
+================================================================================
+FULLY PACT+LSQ
+================================================================================
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========================================
+Dataset: Cora
+========================================
+
+[Float Training]
+Total float training time: 1.6686s
+Float model accuracy: 0.8110
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.8170
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.5440
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.1190
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.1190
+
+========================================
+Dataset: Citeseer
+========================================
+
+[Float Training]
+Total float training time: 0.6879s
+Float model accuracy: 0.6740
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.6870
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.5330
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.0870
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.0870
+
+========================================
+Dataset: Pubmed
+========================================
+Data(x=[19717, 500], edge_index=[2, 88648], y=[19717], train_mask=[19717], val_mask=[19717], test_mask=[19717])
+
+[Float Training]
+Total float training time: 0.7414s
+Float model accuracy: 0.7830
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.7780
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.2110
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.2080
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.2080
+
+========================================
+Dataset: Computers
+========================================
+
+[Float Training]
+Total float training time: 0.8348s
+Float model accuracy: 0.8658
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.9087
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.1055
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.0309
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.0309
+
+========================================
+Dataset: Photo
+========================================
+[Float Training]
+Total float training time: 0.7870s
+Float model accuracy: 0.9366
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.9516
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.1503
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.0588
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.0588
+
+
+================================================================================
+================================================================================
+WEIGHT PACT + ACT LSQ
+================================================================================
+================================================================================
+
+========================================
+Dataset: Cora
+========================================
+Data(x=[2708, 1433], edge_index=[2, 10556], y=[2708], train_mask=[2708], val_mask=[2708], test_mask=[2708])
+
+[Float Training]
+Total float training time: 1.0551s
+Float model accuracy: 0.7820
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.7940
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.7730
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.7330
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.3240
+
+========================================
+Dataset: Citeseer
+========================================
+Data(x=[3327, 3703], edge_index=[2, 9104], y=[3327], train_mask=[3327], val_mask=[3327], test_mask=[3327])
+
+[Float Training]
+Total float training time: 0.6699s
+Float model accuracy: 0.6740
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.6890
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.6620
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.4960
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.1380
+
+========================================
+Dataset: Pubmed
+========================================
+Data(x=[19717, 500], edge_index=[2, 88648], y=[19717], train_mask=[19717], val_mask=[19717], test_mask=[19717])
+
+[Float Training]
+Total float training time: 0.7119s
+Float model accuracy: 0.7830
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.7790
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.7770
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.4270
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.2080
+
+========================================
+Dataset: Computers
+========================================
+Data(x=[13752, 767], edge_index=[2, 491722], y=[13752])
+
+[Float Training]
+Total float training time: 0.8290s
+Float model accuracy: 0.8658
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.9058
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.8865
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.8793
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.8371
+
+========================================
+Dataset: Photo
+========================================
+Data(x=[7650, 745], edge_index=[2, 238162], y=[7650])
+
+[Float Training]
+Total float training time: 0.7662s
+Float model accuracy: 0.9366
+
+--- 8-bit PACT+LSQ ---
+8-bit Acc: 0.9562
+
+--- 4-bit PACT+LSQ ---
+4-bit Acc: 0.9516
+
+--- 2-bit PACT+LSQ ---
+2-bit Acc: 0.9471
+
+--- 1-bit PACT+LSQ ---
+1-bit Acc: 0.9124
+

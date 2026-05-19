@@ -1,0 +1,611 @@
+========================================
+Dataset: Cora
+========================================
+Data(x=[2708, 1433], edge_index=[2, 10556], y=[2708], train_mask=[2708], val_mask=[2708], test_mask=[2708])
+Float model accuracy: 79.90%
+
+Quantization with 8-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 1.025176
+  MSE Threshold       : 1.014925
+  KLD Threshold       : 0.660578
+  Percentile Threshold: 0.521217
+Layer 1 Weights:
+  Max Threshold       : 1.256789
+  MSE Threshold       : 1.244221
+  KLD Threshold       : 1.256789
+  Percentile Threshold: 1.248592
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.978022
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 0.500000
+  MSE Threshold       : 0.495000
+  KLD Threshold       : 0.417083
+  Percentile Threshold: 0.158114
+       MAX PTQ Accuracy: 78.10%
+       MSE PTQ Accuracy: 79.30%
+       KLD PTQ Accuracy: 79.60%
+PERCENTILE PTQ Accuracy: 79.50%
+
+Quantization with 4-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 1.025176
+  MSE Threshold       : 0.379315
+  KLD Threshold       : 0.539728
+  Percentile Threshold: 0.521217
+Layer 1 Weights:
+  Max Threshold       : 1.256789
+  MSE Threshold       : 1.143678
+  KLD Threshold       : 1.256789
+  Percentile Threshold: 1.248592
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.978022
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 0.500000
+  MSE Threshold       : 0.480000
+  KLD Threshold       : 0.194306
+  Percentile Threshold: 0.158114
+       MAX PTQ Accuracy: 73.40%
+       MSE PTQ Accuracy: 77.80%
+       KLD PTQ Accuracy: 76.30%
+PERCENTILE PTQ Accuracy: 76.00%
+
+Quantization with 2-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 1.025176
+  MSE Threshold       : 0.153776
+  KLD Threshold       : 0.392250
+  Percentile Threshold: 0.521217
+Layer 1 Weights:
+  Max Threshold       : 1.256789
+  MSE Threshold       : 0.728938
+  KLD Threshold       : 1.256789
+  Percentile Threshold: 1.248592
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.978022
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 0.500000
+  MSE Threshold       : 0.220000
+  KLD Threshold       : 0.020480
+  Percentile Threshold: 0.158114
+       MAX PTQ Accuracy: 13.30%
+       MSE PTQ Accuracy: 69.30%
+       KLD PTQ Accuracy: 27.80%
+PERCENTILE PTQ Accuracy: 18.50%
+
+Quantization with 1-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 1.025176
+  MSE Threshold       : 0.010252
+  KLD Threshold       : 0.293932
+  Percentile Threshold: 0.521217
+Layer 1 Weights:
+  Max Threshold       : 1.256789
+  MSE Threshold       : 0.012568
+  KLD Threshold       : 1.256789
+  Percentile Threshold: 1.248592
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.010000
+  KLD Threshold       : 0.978022
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 0.500000
+  MSE Threshold       : 0.005000
+  KLD Threshold       : 0.001499
+  Percentile Threshold: 0.158114
+       MAX PTQ Accuracy: 13.30%
+       MSE PTQ Accuracy: 13.30%
+       KLD PTQ Accuracy: 37.20%
+PERCENTILE PTQ Accuracy: 18.50%
+
+========================================
+Dataset: Citeseer
+========================================
+Data(x=[3327, 3703], edge_index=[2, 9104], y=[3327], train_mask=[3327], val_mask=[3327], test_mask=[3327])
+Float model accuracy: 68.70%
+
+Quantization with 8-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.590019
+  MSE Threshold       : 0.489716
+  KLD Threshold       : 0.402581
+  Percentile Threshold: 0.349857
+Layer 1 Weights:
+  Max Threshold       : 1.084712
+  MSE Threshold       : 1.073864
+  KLD Threshold       : 1.084712
+  Percentile Threshold: 1.074416
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.706294
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.460000
+  KLD Threshold       : 0.556444
+  Percentile Threshold: 0.092450
+       MAX PTQ Accuracy: 69.10%
+       MSE PTQ Accuracy: 69.20%
+       KLD PTQ Accuracy: 69.20%
+PERCENTILE PTQ Accuracy: 68.90%
+
+Quantization with 4-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.590019
+  MSE Threshold       : 0.259609
+  KLD Threshold       : 0.309451
+  Percentile Threshold: 0.349857
+Layer 1 Weights:
+  Max Threshold       : 1.084712
+  MSE Threshold       : 0.976240
+  KLD Threshold       : 1.084712
+  Percentile Threshold: 1.074416
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.706294
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.730000
+  KLD Threshold       : 0.358641
+  Percentile Threshold: 0.092450
+       MAX PTQ Accuracy: 65.20%
+       MSE PTQ Accuracy: 66.40%
+       KLD PTQ Accuracy: 65.90%
+PERCENTILE PTQ Accuracy: 65.20%
+
+Quantization with 2-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.590019
+  MSE Threshold       : 0.100303
+  KLD Threshold       : 0.210426
+  Percentile Threshold: 0.349857
+Layer 1 Weights:
+  Max Threshold       : 1.084712
+  MSE Threshold       : 0.639980
+  KLD Threshold       : 1.084712
+  Percentile Threshold: 1.074416
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.706294
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.320000
+  KLD Threshold       : 0.034965
+  Percentile Threshold: 0.092450
+       MAX PTQ Accuracy: 7.80%
+       MSE PTQ Accuracy: 60.00%
+       KLD PTQ Accuracy: 15.50%
+PERCENTILE PTQ Accuracy: 13.90%
+
+Quantization with 1-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.590019
+  MSE Threshold       : 0.005900
+  KLD Threshold       : 0.158557
+  Percentile Threshold: 0.349857
+Layer 1 Weights:
+  Max Threshold       : 1.084712
+  MSE Threshold       : 0.010847
+  KLD Threshold       : 1.084712
+  Percentile Threshold: 1.074416
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.010000
+  KLD Threshold       : 0.706294
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.010000
+  KLD Threshold       : 0.002997
+  Percentile Threshold: 0.092450
+       MAX PTQ Accuracy: 7.80%
+       MSE PTQ Accuracy: 7.80%
+       KLD PTQ Accuracy: 33.00%
+PERCENTILE PTQ Accuracy: 13.90%
+
+
+========================================
+Dataset: Pubmed
+========================================
+Data(x=[19717, 500], edge_index=[2, 88648], y=[19717], train_mask=[19717], val_mask=[19717], test_mask=[19717])
+Float model accuracy: 77.50%
+
+Quantization with 8-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 1.558933
+  MSE Threshold       : 1.496575
+  KLD Threshold       : 1.350245
+  Percentile Threshold: 1.190243
+Layer 1 Weights:
+  Max Threshold       : 1.991695
+  MSE Threshold       : 1.971778
+  KLD Threshold       : 1.991695
+  Percentile Threshold: 1.985773
+
+Input Features:
+  Max Threshold       : 1.263310
+  MSE Threshold       : 0.467425
+  KLD Threshold       : 0.806448
+  Percentile Threshold: 0.215668
+
+Adjacency Matrix:
+  Max Threshold       : 0.500000
+  MSE Threshold       : 0.495000
+  KLD Threshold       : 0.413087
+  Percentile Threshold: 0.000001
+       MAX PTQ Accuracy: 77.70%
+       MSE PTQ Accuracy: 77.60%
+       KLD PTQ Accuracy: 77.70%
+PERCENTILE PTQ Accuracy: 77.80%
+
+Quantization with 4-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 1.558933
+  MSE Threshold       : 0.841824
+  KLD Threshold       : 1.353359
+  Percentile Threshold: 1.190243
+Layer 1 Weights:
+  Max Threshold       : 1.991695
+  MSE Threshold       : 1.892111
+  KLD Threshold       : 1.991695
+  Percentile Threshold: 1.985773
+
+Input Features:
+  Max Threshold       : 1.263310
+  MSE Threshold       : 0.252662
+  KLD Threshold       : 0.301629
+  Percentile Threshold: 0.215668
+
+Adjacency Matrix:
+  Max Threshold       : 0.500000
+  MSE Threshold       : 0.485000
+  KLD Threshold       : 0.194306
+  Percentile Threshold: 0.000001
+       MAX PTQ Accuracy: 61.50%
+       MSE PTQ Accuracy: 76.90%
+       KLD PTQ Accuracy: 74.70%
+PERCENTILE PTQ Accuracy: 75.20%
+
+Quantization with 2-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 1.558933
+  MSE Threshold       : 0.327376
+  KLD Threshold       : 0.954671
+  Percentile Threshold: 1.190243
+Layer 1 Weights:
+  Max Threshold       : 1.991695
+  MSE Threshold       : 1.434021
+  KLD Threshold       : 1.991695
+  Percentile Threshold: 1.985773
+
+Input Features:
+  Max Threshold       : 1.263310
+  MSE Threshold       : 0.088432
+  KLD Threshold       : 0.013883
+  Percentile Threshold: 0.215668
+
+Adjacency Matrix:
+  Max Threshold       : 0.500000
+  MSE Threshold       : 0.265000
+  KLD Threshold       : 0.020480
+  Percentile Threshold: 0.000001
+       MAX PTQ Accuracy: 20.10%
+       MSE PTQ Accuracy: 46.00%
+       KLD PTQ Accuracy: 30.80%
+PERCENTILE PTQ Accuracy: 23.20%
+
+Quantization with 1-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 1.558933
+  MSE Threshold       : 0.015589
+  KLD Threshold       : 1.210081
+  Percentile Threshold: 1.190243
+Layer 1 Weights:
+  Max Threshold       : 1.991695
+  MSE Threshold       : 0.019917
+  KLD Threshold       : 1.991695
+  Percentile Threshold: 1.985773
+
+Input Features:
+  Max Threshold       : 1.263310
+  MSE Threshold       : 0.012633
+  KLD Threshold       : 0.003786
+  Percentile Threshold: 0.215668
+
+Adjacency Matrix:
+  Max Threshold       : 0.500000
+  MSE Threshold       : 0.005000
+  KLD Threshold       : 0.001499
+  Percentile Threshold: 0.000001
+       MAX PTQ Accuracy: 20.10%
+       MSE PTQ Accuracy: 20.10%
+       KLD PTQ Accuracy: 48.80%
+PERCENTILE PTQ Accuracy: 20.80%
+
+========================================
+Dataset: Computers
+========================================
+Data(x=[13752, 767], edge_index=[2, 491722], y=[13752])
+Float model accuracy: 88.44%
+
+Quantization with 8-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.813295
+  MSE Threshold       : 0.764498
+  KLD Threshold       : 0.610175
+  Percentile Threshold: 0.602905
+Layer 1 Weights:
+  Max Threshold       : 1.023271
+  MSE Threshold       : 1.013038
+  KLD Threshold       : 1.023271
+  Percentile Threshold: 1.019026
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.254745
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.340000
+  KLD Threshold       : 0.510490
+  Percentile Threshold: 0.019936
+       MAX PTQ Accuracy: 88.36%
+       MSE PTQ Accuracy: 88.65%
+       KLD PTQ Accuracy: 88.80%
+PERCENTILE PTQ Accuracy: 88.87%
+
+Quantization with 4-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.813295
+  MSE Threshold       : 0.447312
+  KLD Threshold       : 0.623174
+  Percentile Threshold: 0.602905
+Layer 1 Weights:
+  Max Threshold       : 1.023271
+  MSE Threshold       : 0.869780
+  KLD Threshold       : 1.023271
+  Percentile Threshold: 1.019026
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.014985
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.020000
+  KLD Threshold       : 0.206793
+  Percentile Threshold: 0.019936
+       MAX PTQ Accuracy: 28.25%
+       MSE PTQ Accuracy: 82.07%
+       KLD PTQ Accuracy: 77.78%
+PERCENTILE PTQ Accuracy: 73.35%
+
+Quantization with 2-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.813295
+  MSE Threshold       : 0.162659
+  KLD Threshold       : 0.511052
+  Percentile Threshold: 0.602905
+Layer 1 Weights:
+  Max Threshold       : 1.023271
+  MSE Threshold       : 0.573032
+  KLD Threshold       : 1.023271
+  Percentile Threshold: 1.019026
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.002997
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.050000
+  KLD Threshold       : 0.010989
+  Percentile Threshold: 0.019936
+       MAX PTQ Accuracy: 2.51%
+       MSE PTQ Accuracy: 19.60%
+       KLD PTQ Accuracy: 17.96%
+PERCENTILE PTQ Accuracy: 6.15%
+
+Quantization with 1-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.813295
+  MSE Threshold       : 0.008133
+  KLD Threshold       : 0.294931
+  Percentile Threshold: 0.602905
+Layer 1 Weights:
+  Max Threshold       : 1.023271
+  MSE Threshold       : 0.010233
+  KLD Threshold       : 1.023271
+  Percentile Threshold: 1.019026
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.010000
+  KLD Threshold       : 0.002997
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.010000
+  KLD Threshold       : 0.002997
+  Percentile Threshold: 0.019936
+       MAX PTQ Accuracy: 2.51%
+       MSE PTQ Accuracy: 2.47%
+       KLD PTQ Accuracy: 17.27%
+PERCENTILE PTQ Accuracy: 6.15%
+
+
+========================================
+Dataset: Photo
+========================================
+Data(x=[7650, 745], edge_index=[2, 238162], y=[7650])
+Float model accuracy: 94.18%
+
+Quantization with 8-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.655308
+  MSE Threshold       : 0.622543
+  KLD Threshold       : 0.626503
+  Percentile Threshold: 0.510815
+Layer 1 Weights:
+  Max Threshold       : 1.000273
+  MSE Threshold       : 0.990270
+  KLD Threshold       : 1.000273
+  Percentile Threshold: 0.994042
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.254745
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.350000
+  KLD Threshold       : 0.606394
+  Percentile Threshold: 0.031235
+       MAX PTQ Accuracy: 94.05%
+       MSE PTQ Accuracy: 94.05%
+       KLD PTQ Accuracy: 94.18%
+PERCENTILE PTQ Accuracy: 93.86%
+
+Quantization with 4-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.655308
+  MSE Threshold       : 0.373526
+  KLD Threshold       : 0.605555
+  Percentile Threshold: 0.510815
+Layer 1 Weights:
+  Max Threshold       : 1.000273
+  MSE Threshold       : 0.900246
+  KLD Threshold       : 1.000273
+  Percentile Threshold: 0.994042
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.014985
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.020000
+  KLD Threshold       : 0.238761
+  Percentile Threshold: 0.031235
+       MAX PTQ Accuracy: 68.82%
+       MSE PTQ Accuracy: 90.52%
+       KLD PTQ Accuracy: 89.35%
+PERCENTILE PTQ Accuracy: 87.06%
+
+Quantization with 2-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.655308
+  MSE Threshold       : 0.144168
+  KLD Threshold       : 0.482480
+  Percentile Threshold: 0.510815
+Layer 1 Weights:
+  Max Threshold       : 1.000273
+  MSE Threshold       : 0.590161
+  KLD Threshold       : 1.000273
+  Percentile Threshold: 0.994042
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.990000
+  KLD Threshold       : 0.002997
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.050000
+  KLD Threshold       : 0.010989
+  Percentile Threshold: 0.031235
+       MAX PTQ Accuracy: 5.23%
+       MSE PTQ Accuracy: 27.78%
+       KLD PTQ Accuracy: 18.50%
+PERCENTILE PTQ Accuracy: 12.42%
+
+Quantization with 1-bit
+------------------------------
+Layer 0 Weights:
+  Max Threshold       : 0.655308
+  MSE Threshold       : 0.006553
+  KLD Threshold       : 0.321435
+  Percentile Threshold: 0.510815
+Layer 1 Weights:
+  Max Threshold       : 1.000273
+  MSE Threshold       : 0.010003
+  KLD Threshold       : 1.000273
+  Percentile Threshold: 0.994042
+
+Input Features:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.010000
+  KLD Threshold       : 0.002997
+  Percentile Threshold: 1.000000
+
+Adjacency Matrix:
+  Max Threshold       : 1.000000
+  MSE Threshold       : 0.010000
+  KLD Threshold       : 0.002997
+  Percentile Threshold: 0.031235
+       MAX PTQ Accuracy: 5.23%
+       MSE PTQ Accuracy: 4.77%
+       KLD PTQ Accuracy: 35.82%
+PERCENTILE PTQ Accuracy: 12.42%

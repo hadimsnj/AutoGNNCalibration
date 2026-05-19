@@ -1,0 +1,58 @@
+# =========================
+# PyTorch model files
+# =========================
+*.pth
+*.pt
+*.ckpt
+
+# Model checkpoints
+checkpoints/
+models/
+weights/
+
+# =========================
+# GNN datasets
+# =========================
+data/
+datasets/
+raw/
+processed/
+
+# PyG / DGL cache
+**/processed/
+**/raw/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
